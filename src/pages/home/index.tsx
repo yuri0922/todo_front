@@ -13,13 +13,12 @@ const Index = () => {
           data.map((d) => {
             return (
               <div key={d.id} className="flex items-center justify-start">
-                {' '}
                 {/* 左揃えに変更 */}
                 {/* チェックボックスを追加 */}
                 <input type="checkbox" />
                 <p className="text-center text-black">
                   {d.text}
-                  <div className="w-full border-t border-dotted border-black"></div>{' '}
+                  <div className="w-full border-t border-dotted border-black"></div>
                   {/* 下線を追加 */}
                 </p>
               </div>
